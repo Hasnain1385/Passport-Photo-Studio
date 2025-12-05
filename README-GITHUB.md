@@ -2,7 +2,6 @@
 
 A lightweight Electron + Vite app for arranging and exporting passport photos.
 
-View the live AI Studio link: https://ai.studio/apps/drive/17zKs8KpOpPyvfuZscHoCqHmljGj7ZSrA
 
 ⭐ Developer: Mirza Hasnain Baig
 
@@ -10,6 +9,9 @@ Built with Google Gemini. If you like this project, please subscribe:
 https://www.youtube.com/channel/UCFLQuLM-EcOm7r8ZtvITfKA?sub_confirmation=1
 
 ---
+## 🖥️ Screenshoot
+
+<img src="/screenshoots/Main.png" alt="Editor preview" width="700" />
 
 ## 🚀 Features
 
@@ -128,3 +130,4 @@ This project is licensed under the MIT License — see `LICENSE` file.
 - **YouTube:** https://www.youtube.com/channel/UCFLQuLM-EcOm7r8ZtvITfKA?sub_confirmation=1
 
 Enjoy! 🎉
+
