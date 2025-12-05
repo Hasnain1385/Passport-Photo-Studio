@@ -1,0 +1,5 @@
+{
+  "name": "Passport Photo Studio",
+  "description": "Professional passport photo arrangement and background editing tool using Gemini and Remove.bg APIs.",
+  "requestFramePermissions": []
+}

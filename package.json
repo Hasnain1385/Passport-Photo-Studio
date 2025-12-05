@@ -1,0 +1,47 @@
+{
+  "name": "passport-photo-studio",
+  "version": "1.0.0",
+  "description": "Professional passport photo arrangement tool",
+  "main": "electron/main.js",
+  "author": "Mirza Hasnain Baig",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "electron:dev": "concurrently \"npm run dev\" \"wait-on tcp:5173 && electron .\"",
+    "electron:build": "npm run build && electron-builder -w"
+  },
+  "build": {
+    "appId": "com.mirzahasnain.passportstudio",
+    "productName": "Passport Photo Studio",
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "nsis",
+      "forceCodeSigning": false,
+      "verifyUpdateCodeSignature": false
+    }
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "electron": "^29.1.0",
+    "electron-builder": "^24.13.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.5",
+    "wait-on": "^7.2.0"
+  }
+}
