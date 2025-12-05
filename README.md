@@ -82,25 +82,6 @@ Replace `your_api_key_here` with your Gemini API key.
 
 ---
 
-## 📦 What to upload to GitHub
-
-- All project files except `node_modules`, build artifacts, and secrets. Use the included `.gitignore`.
-- Add a descriptive `README.md` (this file), `LICENSE` (MIT), and any contributing notes.
-
-Quick Git steps to publish:
-
-```powershell
-git init
-git add .
-git commit -m "chore: initial project import"
-# create repo on GitHub (replace <your-remote-url>)
-git remote add origin <your-remote-url>
-git branch -M main
-git push -u origin main
-```
-
----
-
 ## 📁 Project Structure (high level)
 
 - `App.tsx`, `index.tsx`, `index.html` — app entry (React + Vite)
@@ -130,4 +111,5 @@ This project is licensed under the MIT License — see `LICENSE` file.
 - **YouTube:** https://www.youtube.com/channel/UCFLQuLM-EcOm7r8ZtvITfKA?sub_confirmation=1
 
 Enjoy! 🎉
+
 
